@@ -1,5 +1,6 @@
 package IDrawable;
 
 public interface Drawable {
-    void draw(byte[][] Canvas);
+    boolean draw(int[][] Canvas);
 }
+

@@ -14,21 +14,22 @@ public class Line implements Drawable {
     Draw method insert a line in the canvas checking with control structures
     that the line is straight
     */
-    public void draw(byte[][] Canvas) {
+    public boolean draw(int[][] Canvas) {
 
         if (pointStart.getY() == pointEnd.getY()) {
             for ( int i = pointStart.getX(); i <= pointEnd.getX() ; i++) {
                 int j = pointStart.getY();
                 Canvas[j][i] = 2;
-            }
+            } return true;
         } else if (pointStart.getX() == pointEnd.getX()) {
             for ( int i = pointStart.getY(); i <= pointEnd.getY() ; i++) {
                 int j = pointStart.getX();
                 Canvas[i][j] = 2;
-            }
 
+            } return true;
         } else
             System.out.println("Only straight lines are allowed");
+        return false;
 
     }
 }

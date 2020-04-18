@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4957a01-b447-4c67-adaa-d9c8dfbd2a96" name="Default Changelist" comment="" />
+    <list default="true" id="f4957a01-b447-4c67-adaa-d9c8dfbd2a96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Canvas/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Figures/BucketFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figures/BucketFill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Figures/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figures/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Figures/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figures/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDrawable/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDrawable/Drawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Canvas/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Canvas/Canvas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Figures/BucketFill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Figures/BucketFill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Figures/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Figures/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Figures/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Figures/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IDrawable/Drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IDrawable/Drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aYT49TaEZ5tppNKpXLgNJIdtpf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -65,26 +85,46 @@
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>
     <state x="2213" y="179" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587162249209" />
+    <state x="2112" y="0" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1587229877264">
+      <screen x="1440" y="-84" width="1920" height="1080" />
+    </state>
+    <state x="2112" y="0" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587229877264" />
     <state x="2183" y="305" width="433" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587158423232">
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>
     <state x="2183" y="305" width="433" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587158423232" />
-    <state width="1878" height="286" key="GridCell.Tab.0.bottom" timestamp="1587179049421">
+    <state width="1878" height="286" key="GridCell.Tab.0.bottom" timestamp="1587249844539">
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587179049420" />
-    <state width="1878" height="286" key="GridCell.Tab.0.center" timestamp="1587179049417">
+    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587249844539" />
+    <state width="1878" height="286" key="GridCell.Tab.0.center" timestamp="1587249844535">
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.center/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587179049417" />
-    <state width="1878" height="286" key="GridCell.Tab.0.left" timestamp="1587179049415">
+    <state width="1878" height="286" key="GridCell.Tab.0.center/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587249844535" />
+    <state width="1878" height="286" key="GridCell.Tab.0.left" timestamp="1587249844533">
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.left/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587179049415" />
-    <state width="1878" height="286" key="GridCell.Tab.0.right" timestamp="1587179049419">
+    <state width="1878" height="286" key="GridCell.Tab.0.left/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587249844533" />
+    <state width="1878" height="286" key="GridCell.Tab.0.right" timestamp="1587249844537">
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.right/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587179049419" />
+    <state width="1878" height="286" key="GridCell.Tab.0.right/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587249844537" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1587231614633">
+      <screen x="1440" y="-84" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587231614633" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1587231614630">
+      <screen x="1440" y="-84" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587231614630" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1587231614629">
+      <screen x="1440" y="-84" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587231614629" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1587231614631">
+      <screen x="1440" y="-84" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587231614631" />
     <state x="1909" y="95" key="SettingsEditor" timestamp="1587166608308">
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>

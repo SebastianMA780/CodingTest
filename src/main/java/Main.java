@@ -1,13 +1,15 @@
 import Canvas.Canvas;
+import Figures.BucketFill;
 import Figures.Line;
 import Figures.Point;
 import Figures.Rectangle;
 import java.util.Scanner;
 
 public class Main {
-     static Scanner keyBoard = new Scanner(System.in);
+
 
      static Canvas createCanvas() {
+         Scanner keyBoard = new Scanner(System.in);
          int width;
          int height;
 
@@ -15,18 +17,22 @@ public class Main {
          width = keyBoard.nextInt();
          height = keyBoard.nextInt();
         Canvas canvas = new Canvas(width, height);
-        canvas.printCanvas();
+        canvas.printCanvas('d');
         return canvas;
      }
 
       public static void main(String[] args) {
+          Scanner keyBoard = new Scanner(System.in);
+            int xStart = 0;
+            int xEnd = 0;
+            int yStart = 0;
+            int yEnd = 0;
+            char color;
             char option = 'a';
+
             Canvas canvas = createCanvas();
             do {
-                int xStart;
-                int xEnd;
-                int yStart;
-                int yEnd;
+
                 Point pointStart;
                 Point pointEnd;
 
@@ -42,8 +48,11 @@ public class Main {
                          pointStart = new Point(xStart,yStart);
                          pointEnd = new Point(xEnd,yEnd);
                          Line line = new Line(pointStart,pointEnd);
-                         line.draw(canvas.getCanvas());
-                         canvas.printCanvas();
+
+                         if ( line.draw( canvas.getCanvas()) )
+                            canvas.printCanvas('d');
+                         else
+                             break;
                          break;
                     case 'R':
                         xStart = keyBoard.nextInt();
@@ -54,21 +63,26 @@ public class Main {
                          pointStart = new Point(xStart,yStart);
                          pointEnd = new Point(xEnd,yEnd);
                          Rectangle rectangle = new Rectangle(pointStart,pointEnd);
-                         rectangle.draw(canvas.getCanvas());
-                         canvas.printCanvas();
+                         if ( rectangle.draw( canvas.getCanvas()) )
+                            canvas.printCanvas('d');
+                         else
+                            break;
                          break;
                     case 'B':
-                        char color;
                         xStart = keyBoard.nextInt();
                         yStart = keyBoard.nextInt();
                         color = keyBoard.next().charAt(0);
-                        System.out.println("H");
+
+                        pointStart = new Point(xStart,yStart);
+                        BucketFill bucketFill = new BucketFill(pointStart);
+                        if ( bucketFill.draw( canvas.getCanvas()) )
+                            canvas.printCanvas(color);
+                        else
+                            break;
                         break;
                     default:
                         break;
-
                 }
-
             } while ( option != 'Q' );
     }
 }
