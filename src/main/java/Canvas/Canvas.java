@@ -1,4 +1,5 @@
 package Canvas;
+
 public class Canvas {
     /*
      + the matrix that represents the canvas will have 3 possible values
@@ -7,16 +8,16 @@ public class Canvas {
      + 2 --> Figure's borders */
     private int width;
     private int height;
-    private int[][] canvas ;
+    private byte[][] canvas ;
     /*
-    Constructor sets the matrix with values = 0, the increment
-    is to make the canvas better visible in the console
+    Constructor sets the matrix with values = 0, the increment in
+    height and width is to make the canvas better visible in the console
      */
     public Canvas(int width , int height) {
         int increment = 2;
         setHeight(height + increment);
         setWidth(width + increment);
-        canvas =  new int[getHeight()][getWidth()];
+        canvas =  new byte[getHeight()][getWidth()];
         for ( int i = 0; i < height  ; i++) {
             for (int j = 0 ; j < width  ; j++) {
                 canvas[i][j] = 0;
@@ -64,11 +65,11 @@ public class Canvas {
         this.height = height;
     }
 
-    public int[][] getCanvas() {
+    public byte[][] getCanvas() {
         return canvas;
     }
 
-    public void setCanvas(int[][] canvas) {
+    public void setCanvas(byte[][] canvas) {
         this.canvas = canvas;
     }
 }

@@ -14,7 +14,7 @@ public class Line implements Drawable {
     Draw method insert a line in the canvas checking with control structures
     that the line is straight
     */
-    public boolean draw(int[][] Canvas) {
+    public boolean draw(byte[][] Canvas) {
 
         if (pointStart.getY() == pointEnd.getY()) {
             for ( int i = pointStart.getX(); i <= pointEnd.getX() ; i++) {

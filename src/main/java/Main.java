@@ -6,38 +6,42 @@ import Figures.Rectangle;
 import java.util.Scanner;
 
 public class Main {
+    /*
+    static method that allows to create the canvas
+    before starting to insert figures on it
+    */
+    static Canvas createCanvas() {
+        Scanner keyBoard = new Scanner(System.in);
+        int width;
+        int height;
 
-
-     static Canvas createCanvas() {
-         Scanner keyBoard = new Scanner(System.in);
-         int width;
-         int height;
-
-         System.out.print("enter command:C ");
-         width = keyBoard.nextInt();
-         height = keyBoard.nextInt();
+        System.out.print("enter command:C ");
+        width = keyBoard.nextInt();
+        height = keyBoard.nextInt();
         Canvas canvas = new Canvas(width, height);
         canvas.printCanvas('d');
         return canvas;
-     }
+    }
 
       public static void main(String[] args) {
           Scanner keyBoard = new Scanner(System.in);
+
             int xStart = 0;
             int xEnd = 0;
             int yStart = 0;
             int yEnd = 0;
             char color;
             char option = 'a';
+            Canvas canvas;
 
-            Canvas canvas = createCanvas();
+             canvas = createCanvas();
             do {
-
                 Point pointStart;
                 Point pointEnd;
 
                 System.out.print("enter command:");
                 option = keyBoard.next().charAt(0);
+
                 switch (option) {
                     case 'L':
                         xStart = keyBoard.nextInt();

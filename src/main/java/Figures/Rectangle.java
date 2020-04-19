@@ -14,7 +14,7 @@ public  class Rectangle implements Drawable {
         Draw method inserts a rectangle in the canvas checking that (x1,y1) be
         upper left corner and (x2,y2)  be lower right corner
     */
-    public boolean draw(int[][] Canvas) {
+    public boolean draw(byte[][] Canvas) {
         if (pointStart.getX() < pointEnd.getX() && pointStart.getY() < pointEnd.getY() ) {
             for ( int i = pointStart.getY(); i <= pointEnd.getY(); i++) {
                 for (int j = pointStart.getX(); j <= pointEnd.getX(); j++) {
