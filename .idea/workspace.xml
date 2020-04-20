@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4957a01-b447-4c67-adaa-d9c8dfbd2a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Figures/BucketFillTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Figures/LineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Figures/RectangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Canvas/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Canvas/CanvasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Canvas/CanvasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Canvas/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Canvas/Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Canvas/CanvasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Canvas/CanvasTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Figures/BucketFillTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Figures/BucketFillTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +37,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -58,8 +53,18 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BucketFillTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CodingTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BucketFillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingTest" />
       <extension name="coverage">
@@ -70,21 +75,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Figures" />
       <option name="MAIN_CLASS_NAME" value="Figures.BucketFillTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CanvasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Canvas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Canvas" />
-      <option name="MAIN_CLASS_NAME" value="Canvas.CanvasTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BucketFillTest" />
         <item itemvalue="JUnit.LineTest" />
         <item itemvalue="JUnit.RectangleTest" />
         <item itemvalue="JUnit.PointTest" />
-        <item itemvalue="JUnit.CanvasTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +149,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1587347767297">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587347767297" />
     <state x="1647" y="156" width="1654" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587341234893">
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>
@@ -176,25 +170,25 @@
       <screen x="1440" y="-84" width="1920" height="1080" />
     </state>
     <state x="2183" y="305" width="433" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587158423232" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1587341260878">
-      <screen x="1440" y="-84" width="1920" height="1080" />
+    <state width="1398" height="177" key="GridCell.Tab.0.bottom" timestamp="1587347862659">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587328676202" />
+    <state width="1398" height="177" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587347862659" />
     <state width="1878" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587341260878" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1587341260875">
-      <screen x="1440" y="-84" width="1920" height="1080" />
+    <state width="1398" height="177" key="GridCell.Tab.0.center" timestamp="1587347862657">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587328676200" />
+    <state width="1398" height="177" key="GridCell.Tab.0.center/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587347862657" />
     <state width="1878" height="226" key="GridCell.Tab.0.center/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587341260875" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1587341260873">
-      <screen x="1440" y="-84" width="1920" height="1080" />
+    <state width="1398" height="177" key="GridCell.Tab.0.left" timestamp="1587347862655">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587328676199" />
+    <state width="1398" height="177" key="GridCell.Tab.0.left/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587347862655" />
     <state width="1878" height="226" key="GridCell.Tab.0.left/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587341260873" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1587341260876">
-      <screen x="1440" y="-84" width="1920" height="1080" />
+    <state width="1398" height="177" key="GridCell.Tab.0.right" timestamp="1587347862658">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587328676201" />
+    <state width="1398" height="177" key="GridCell.Tab.0.right/0.0.1440.900/1440.-84.1920.1080@0.0.1440.900" timestamp="1587347862658" />
     <state width="1878" height="226" key="GridCell.Tab.0.right/0.0.1440.900/1440.-84.1920.1080@1440.-84.1920.1080" timestamp="1587341260876" />
     <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1587335415863">
       <screen x="1440" y="-84" width="1920" height="1080" />
