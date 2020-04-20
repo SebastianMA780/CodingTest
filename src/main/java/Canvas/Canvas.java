@@ -10,7 +10,7 @@ public class Canvas {
     private int height;
     private byte[][] canvas ;
     /*
-    Constructor sets the matrix with values = 0, the increment in
+    Constructor sets the matrix with values = 0 and the borders with 2, the increment in
     height and width is to make the canvas better visible in the console
      */
     public Canvas(int width , int height) {
@@ -18,9 +18,13 @@ public class Canvas {
         setHeight(height + increment);
         setWidth(width + increment);
         canvas =  new byte[getHeight()][getWidth()];
-        for ( int i = 0; i < height  ; i++) {
-            for (int j = 0 ; j < width  ; j++) {
-                canvas[i][j] = 0;
+        for ( int i = 0; i < getHeight()  ; i++) {
+            for (int j = 0 ; j < getWidth()  ; j++) {
+                if ( (i == 0 || i == getHeight() - 1) || (j == 0 || j == getWidth() - 1 ) ) {
+                    canvas[i][j] = 2;
+                } else {
+                    canvas[i][j] = 0;
+                }
             }
         }
     }

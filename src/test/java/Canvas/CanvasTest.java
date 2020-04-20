@@ -1,24 +1,23 @@
 package Canvas;
-import org.junit.Assert;
 import org.junit.Test;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import static org.junit.Assert.*;
 
 public class CanvasTest {
+    private  Canvas canvas = new Canvas(20, 4);
 
     @Test
-    public void testCreateCanvas() {
-        int increment = 2;
-       Canvas canvas = new Canvas(20, 4);
-        Assert.assertArrayEquals(new byte[4+increment][20+increment],canvas.getCanvas());
-    }
-
-/*    @Test
     public void testPrintCanvas() {
-        Canvas canvas = new Canvas(20, 4);
-        Assert.assertEquals("----------------------\n" +
-                "|                    |\n" +
-                "|                    |\n" +
-                "|                    |\n" +
-                "|                    |\n" +
-                "----------------------",canvas.printCanvas('c'));
-    }*/
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        canvas.printCanvas('d');
+
+               assertEquals("----------------------\n" +
+                                     "|                    |\n" +
+                                     "|                    |\n" +
+                                     "|                    |\n" +
+                                     "|                    |\n" +
+                                     "----------------------\n" ,outContent.toString());
+    }
 }

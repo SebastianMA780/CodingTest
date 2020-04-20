@@ -30,7 +30,7 @@ public class Main {
             int xEnd = 0;
             int yStart = 0;
             int yEnd = 0;
-            char color;
+            char color = 'd';
             char option = 'a';
             Canvas canvas;
 
@@ -54,7 +54,7 @@ public class Main {
                          Line line = new Line(pointStart,pointEnd);
 
                          if ( line.draw( canvas.getCanvas()) )
-                            canvas.printCanvas('d');
+                            canvas.printCanvas(color);
                          else
                              break;
                          break;
@@ -68,7 +68,7 @@ public class Main {
                          pointEnd = new Point(xEnd,yEnd);
                          Rectangle rectangle = new Rectangle(pointStart,pointEnd);
                          if ( rectangle.draw( canvas.getCanvas()) )
-                            canvas.printCanvas('d');
+                            canvas.printCanvas(color);
                          else
                             break;
                          break;
