@@ -36,11 +36,9 @@ public class Canvas {
             for ( int i = 0; i < getHeight(); i++) {
                 for ( int j = 0; j < getWidth(); j++) {
                     if ( i == 0 || i == getHeight() - 1 ) {
-                        canvas[i][j] = 2;
                         System.out.print("-");
                     } else {
                         if (j == 0 || j == getWidth() - 1 ) {
-                            canvas[i][j] = 2;
                             System.out.print("|");
                         } else
                             if ( canvas[i][j] == 1 )
