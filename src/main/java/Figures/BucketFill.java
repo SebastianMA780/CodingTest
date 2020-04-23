@@ -12,12 +12,12 @@ public class BucketFill implements Drawable {
     * Recursive function that checks north , south , est , west of the point given
     to verify what points are adjacent to it and which ones no
     * */
-    static void bucketFillUtil(byte[][] Canvas,int x, int y, int prevS,int newS) {
+    public void bucketFillUtil(byte[][] Canvas,int x, int y, int prevS,byte newS) {
         if (y < 0 || y >  Canvas[0].length - 1 || x < 0 || x >  Canvas.length - 1)
             return;
         if (Canvas[x][y] != prevS)
             return;
-        Canvas[x][y] = (byte) newS;
+        Canvas[x][y] =  newS;
 
         bucketFillUtil(Canvas,x + 1, y,prevS,newS);
         bucketFillUtil(Canvas,x - 1, y,prevS,newS);
@@ -25,9 +25,9 @@ public class BucketFill implements Drawable {
         bucketFillUtil(Canvas,x , y -1,prevS,newS);
     }
 
-    static void bucketFill(byte[][] Canvas, int x, int y) {
+    public void bucketFill(byte[][] Canvas, int x, int y) {
         int previousState = Canvas[x][y];
-        int newState = 1;
+        byte newState = 1;
         bucketFillUtil(Canvas,x,y,previousState,newState);
     }
     /*
