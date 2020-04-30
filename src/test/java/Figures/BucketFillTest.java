@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class BucketFillTest {
 
-    private Canvas canvas = new Canvas(20,4);
+     Canvas canvas = new Canvas(20,4);
 
     @Test
     public void createBucketFill() {

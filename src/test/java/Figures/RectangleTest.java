@@ -8,22 +8,19 @@ import static org.junit.Assert.assertEquals;
 
 public class RectangleTest {
 
-    private Canvas canvas;
+     Canvas canvas = new Canvas(20,4);
 
     @Test
     public void createRectangle() {
         Point pointStart = new Point(16,1);
         Point pointEnd = new Point(20,3);
         Rectangle rectangle = new Rectangle(pointStart,pointEnd);
-        canvas = new Canvas(20,4);
 
         assertEquals(16,pointStart.getX());
         assertEquals(1,pointStart.getY());
         assertEquals(20,pointEnd.getX());
         assertEquals(3,pointEnd.getY());
         assertTrue("true",rectangle.draw(canvas.getCanvas()));
-
-
     }
 
     @Test

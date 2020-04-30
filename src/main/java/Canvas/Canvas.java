@@ -17,7 +17,7 @@ public class Canvas {
         int increment = 2;
         setHeight(height + increment);
         setWidth(width + increment);
-        canvas =  new byte[getHeight()][getWidth()];
+        setCanvas( new byte[getHeight()][getWidth()] );
         for ( int i = 0; i < getHeight()  ; i++) {
             for (int j = 0 ; j < getWidth()  ; j++) {
                 if ( (i == 0 || i == getHeight() - 1) || (j == 0 || j == getWidth() - 1 ) ) {
