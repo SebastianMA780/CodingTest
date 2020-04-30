@@ -12,6 +12,7 @@ as follows :
 
 ```
 Command 		Description
+
 C w h           Create a new canvas of width w and height h.
 
 L x1 y1 x2 y2   Create a new line of 'x' from (x1,y1) to (x2,y2). Only support 
