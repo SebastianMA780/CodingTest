@@ -4,16 +4,6 @@
     <list default="true" id="f4957a01-b447-4c67-adaa-d9c8dfbd2a96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Canvas/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Canvas/CanvasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Canvas/CanvasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Figures/BucketFillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Figures/BucketFillTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Figures/LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Figures/LineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Figures/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Figures/RectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Canvas/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Canvas/Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Canvas/CanvasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Canvas/CanvasTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Figures/BucketFillTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Figures/BucketFillTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Figures/LineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Figures/LineTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Figures/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Figures/RectangleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

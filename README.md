@@ -8,7 +8,7 @@ Junit 4 was used for unit tests.
 
 The exercise consists on  writing a simple console
 version of a drawing program. The program should works
-as follow :
+as follows :
 
 ```
 Command 		Description
