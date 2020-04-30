@@ -4,7 +4,7 @@ Code test for The Public Group
 The program was built using Java 8 and Maven.
 Junit 4 was used for unit tests.
 
-# Exercise's description:
+# Description:
 
 The exercise consists on  writing a simple console
 version of a drawing program. The program should works
