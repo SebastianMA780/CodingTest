@@ -53,19 +53,19 @@ enter command: L 6 3 6 4
 |     x              |
 ----------------------
 
-enter command: R 14 1 18 3
+enter command: R 16 1 20 3
 ----------------------
-|             xxxxx  |
-|xxxxxx       x   x  |
-|     x       xxxxx  |
+|              xxxxx |
+|xxxxxx        x   x |
+|     x        xxxxx |
 |     x              |
 ----------------------
 
 enter command: B 10 3 o
 ----------------------
-|oooooooooooooxxxxxoo|
-|xxxxxxooooooox   xoo|
-|     xoooooooxxxxxoo|
+|oooooooooooooooxxxxx|
+|xxxxxxooooooooox   x|
+|     xoooooooooxxxxx|
 |     xoooooooooooooo|
 ----------------------
 ```
